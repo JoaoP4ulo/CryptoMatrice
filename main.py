@@ -58,7 +58,11 @@ if n == 1:
     print(f"Pronto, agora temos um numero n = {n} de matriz que representam a frase codificada.\n")
 else:
     print(f"Pronto, agora temos um numero n = {n} de matrizes que representam a frase codificada.\n")
+
+
 print(CYAN + "OPERAÇÃO REVERSA\n" + RESET)
+
+
 print("Agora, para decifrarmos o código usaremos a fórmula: " + CYAN + "M = (C^-1) * M'\n" + RESET)
 print("Onde: \nM = matriz frase\n(C^-1) = inversa da matriz chave\nM' = código\n")
 print("Para obtermos a matriz inversa da matriz chave usaremos a fórmula: " + CYAN + "(C^-1) * C = I'\n" + RESET)
